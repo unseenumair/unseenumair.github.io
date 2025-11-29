@@ -42,7 +42,7 @@ Here are some of my favorite learning sources:
 ## 🤝 Let’s Connect!
 
 I’m always open to collaboration, feedback, and learning opportunities. Feel free to reach out:  
-- [Portfolio (Coming Soon)](https://unseenumair.vercel.app/)
+- [Portfolio (Coming Soon)](https://unseenumair.github.io/)
 - [LinkedIn](https://www.linkedin.com/in/unseenumair/)
 - [Twitter (X)](https://x.com/unseenumair)
 - [Dev.to](https://dev.to/unseenumair)
@@ -64,4 +64,4 @@ For permissions, contact [umairshakoor.pro@gmail.com](mailto:umairshakoor.pro@gm
 
 ---
 
-_Onward to learning! Together, let’s code the unseen._ 🔥
+>Onward to learning! Together, let’s code the unseen. 🔥
