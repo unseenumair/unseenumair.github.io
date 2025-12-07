@@ -1,242 +1,184 @@
 :root {
-    --overlayCol: #355070;
-    --textCol: #fff1E6;
-    --markCol: #1E2A38;
-    --navCol: #ffc262;
-    --glowBG: linear-gradient(45deg, var(--navCol), var(--textCol));
+	--bodyBg: black;
+	--textCol: white;
+	--h1Bg: linear-gradient(45deg, darkblue, white);
+	--mainBg: linear-gradient(45deg, darkblue, transparent);
+	--markCol: red;
+	--boxBg: rgba(0, 0, 0, 0.6);
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 html,
 body {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background: url("/bg.webp");
-    background-size: cover;
-    background-position: center;
-    font-family: "Quicksand", sans-serif;
-    letter-spacing: 0.3px;
-    color: var(--textCol);
+	width: 100vw;
+	height: 100vh;
+	background: var(--bodyBg); /* Unnecessary due to canvas, but if canvas produce some error, this bg will used */
+	color: var(--textCol);
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	user-select: none;
+	font-family: "QuickSand", sans-serif;
 }
 
-body::before {
-    content: "";
-    position: absolute;
-    z-index: 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: var(--overlayCol);
-    opacity: 0.35;
-}
-
-mark {
-    color: var(--markCol);
-    background: transparent;
-    font-weight: bold;
-}
-
-header,
-footer div {
-    border: 0;
-    border-radius: 20px;
-    backdrop-filter: blur(10px) invert(0.3) contrast(1.05);
-    background: transparent;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
-}
-
-header,
-section,
-footer {
-    position: relative;
-    z-index: 1;
-}
-
+/* Header */
 header {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 7px;
-    padding: 7px 0;
-    animation: down 1s ease 0s;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px;
 }
 
-@keyframes down {
-    0% {
-        transform: translateY(-100px);
-    }
+header img { border-radius: 50%; }
 
-    100% {
-        transform: translateY(0px);
-    }
+header a {
+	text-decoration: none;
+	padding: 7px 10px;
+	background: var(--h1Bg);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	border: 0;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: opacity 0.7s ease 0.05s;
 }
 
-h1 {
-    font-size: 1.3em;
-    letter-spacing: 1px;
-}
+header a:hover { opacity: 0.7; }
 
-ul {
-    list-style: none;
-    font-weight: bold;
-}
-
+/* Main */
 main {
-    width: 100%;
-    height: 85%;
-    position: absolute;
-    background: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	position: relative;
+	z-index: 1;
+	width: clamp(250px, 95%, 500px);
+	border-radius: 70px;
+	background: var(--mainBg);
+	padding: 10px 0;
 }
 
-section {
-    width: 95vw;
-    max-width: 570px;
+main h2,
+main h3 {
+	width: 100%;
+	text-align: center;
+	margin: 7px 0;
+	letter-spacing: 0.5px;
 }
 
-h2 {
-    text-align: center;
-    font-size: 30px;
-    word-spacing: 3px;
-    position: relative;
+main h2 {
+	font-size: 2rem;
+	font-family: "Monoton", sans-serif;
 }
 
-.glow {
-    background: var(--glowBG);
-    -webkit-background-clip: text;
-    color: transparent;
+main h3 { 
+	font-family: "Cinzel Decorative", serif;
+	font-size: 1rem; 
+	font-weight: thin;
 }
 
-p {
-    text-align: center;
-    padding: 7px;
-    line-height: 25px;
+h3 mark { background: transparent; }
+
+/* Main Clock */
+#clock {
+	width: 100%;
+	gap: 10px;
+	margin: 10px 0;
 }
 
-p::after {
-    content: "|";
-    font-size: 20px;
-    font-weight: thin;
-    color: var(--markCol);
-    animation: blink 1s step-end 0s infinite;
-    padding-left: 3px;
+#clock .box {
+	width: clamp(40px, 8vmax , 70px);
+	height: clamp(40px, 8vmax , 70px);
+	background: var(--boxBg);
+	border-radius: 15px;
+	font-size: 2rem;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	transition: all 0.3s ease;
 }
 
-@keyframes blink {
+h3 mark, #hours, #minutes, #AmPm { color: var(--markCol); }
 
-    0%,
-    100% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: 0;
-    }
+#dots {
+	flex-direction: column;
+	gap: 7px;
 }
 
-#icons {
-    user-select: none;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 7px 0;
+#dots span {
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background: var(--textCol);
 }
 
-#icons img {
-    width: 10vmin;
-    max-width: 40px;
-    height: 10vmin;
-    max-height: 40px;
-    display: inline-block;
-    border: 0;
-    border-radius: 50%;
-    background: var(--textCol);
-    padding: 4px;
-    transition: all 0.4s ease 0s;
-    animation: show 3s ease 0s;
+#clock #AmPm { font-size: 1.3rem; }
+
+/* Main Socials */
+header,
+#clock,
+#clock .box,
+#socials ul,
+#socials a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-@keyframes show {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
+#socials ul {
+	gap: 7px;
+	width: 100%;
+	height: clamp(50px, 10vmin, 90px);
+	list-style: none;
 }
 
-#icons a:focus-visible {
-    outline: 0;
-    border: 0;
+#socials a {
+	text-decoration: none;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: var(--textCol);
+	color: var(--bodyBg);
+	font-size: 1.7rem;
+	transition: all 0.5s ease 0.05s;
+	cursor: pointer;
+	opacity: 0;
+	animation: fade-in 1s ease-out forwards;
 }
 
-#icons a:hover img,
-#icons a:focus-visible img {
-    display: inline-block;
-    transform: translateY(-10px);
-    background: var(--glowBG);
-    box-shadow: 0 0 12px var(--navCol);
+@keyframes fade-in {
+	100% { opacity: 1; }
 }
 
-footer {
-    position: absolute;
-    bottom: 7px;
-    left: 0;
-    width: 100%;
-    animation: up 1s ease 0s;
+#socials a:hover {
+	background: var(--bodyBg);
+	color: var(--textCol);
 }
 
-@keyframes up {
-    0% {
-        bottom: -100px;
-    }
-
-    100% {
-        bottom: 7px;
-    }
+/* Canvas */
+canvas {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	opacity: 0;
+	animation: fade-in 1.5s ease 0.05s forwards;
 }
 
-footer div {
-    padding: 7px 10px;
-    width: fit-content;
-    margin: 0 auto;
+/* Some Classes */
+.show { opacity: 0; }
+.show.loaded {	animation: fade-in 1s ease 0.05s forwards; }
+
+@keyframes fade-in {
+	100% { opacity: 1; 
 }
 
-footer span {
-    color: var(--navCol);
-}
-
-::selection {
-    background: var(--navCol);
-    color: var(--markCol);
-}
-
-@media only screen and (orientation: landscape) {
-    header {
-        padding: 10px 0;
-    }
-
-    h2,
-    #icons img {
-        transform: scale(1.1);
-    }
-
-    p {
-        transform: scale(1.05);
-        line-height: 27px;
-    }
-
-    #icons {
-        margin: 10px 0;
-    }
-}
