@@ -1,6 +1,6 @@
 # 👋 Hello, I’m Umair Shakoor
 
-Welcome to my GitHub 👋  
+Welcome to my Portfolio Repo 👋  
 I’m a **System Builder in progress** — focused on turning **raw business problems** into **reliable, scalable software systems**.
 
 I don’t chase stacks.  
