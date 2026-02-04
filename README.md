@@ -1,93 +1,63 @@
-# 👋 Hello, I’m Umair Shakoor
+# 👋 Hey, I’m Umair
 
-Welcome to my Portfolio Repo 👋  
-I’m a **System Builder in progress** — focused on turning **raw business problems** into **reliable, scalable software systems**.
-
-I don’t chase stacks.  
-I build **outcomes**.
+I started with frontend development.  
+Now I’m moving deeper — into how software is **deployed, automated, and maintained** ⚙️
 
 ---
 
-## 🧠 What I Actually Do
+## 🎯 Current Direction
+  <img align="right" src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" width="110" alt="Linux Penguin"/>
+  
+**Junior Frontend Developer → DevOps Aspirant**
+  
+My focus is shifting from writing features  
+to owning the **environment where code runs and fails**.
 
-I work at the intersection of:
-- ⚙️ System thinking
-- 🌐 Modern web platforms
-- 🔐 Reliability, data integrity & scalability
-- 🎯 Business-first problem solving
-
-My goal is simple:
-> Take a vague idea or pain → design the flow → build the system → make it work in the real world.
 
 ---
 
-## 🧩 Core Stack (Depth > Hype)
+## 🧠 Core Learning Focus
+![Linux](https://img.shields.io/badge/Linux-Server%20Fundamentals-FCC624?logo=linux&logoColor=black)
+![Bash](https://img.shields.io/badge/Bash-Scripting-4EAA25?logo=gnubash&logoColor=white)
+![Python](https://img.shields.io/badge/Python-Automation-3776AB?logo=python&logoColor=white)
+![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?logo=git&logoColor=white)
 
-These are the tools I’m going **deep** into:
+![Docker](https://img.shields.io/badge/Docker-Containers-2496ED?logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Core%20Concepts-326CE5?logo=kubernetes&logoColor=white)
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![React](https://img.shields.io/badge/React_(Foundations)-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Git](https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-Pipelines-0A0A0A?logo=githubactions&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-Automation-D24939?logo=jenkins&logoColor=white)
 
-> React is a foundation.  
-> Next.js is where real systems live.  
-> React Native lets me **go mobile** without losing system consistency.
-
----
-
-## 🏗️ What You’ll Find Here
-
-- 🧱 **System-oriented projects** (not toy apps)
-- 🔄 Rebuilt projects (tutorial → independent → AI-assisted)
-- 🧪 Experiments around scalability, structure & UX
-- 📂 Demo systems used for real business discussions
-
-This GitHub is a **workshop**, not a highlight reel.
+![AWS](https://img.shields.io/badge/AWS-Cloud%20Foundations-232F3E?logo=amazonaws&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-Infrastructure%20as%20Code-844FBA?logo=terraform&logoColor=white)
+![Pulumi](https://img.shields.io/badge/Pulumi-Modern%20IaC-8A3391?logo=pulumi&logoColor=white)
 
 ---
 
-## 🎯 Current Focus
-
-- Deep mastery of **TypeScript**
-- Building **production-style systems** with Next.js
-- Strong **data modeling** with PostgreSQL
-- Thinking in **flows, failure cases, and tradeoffs**
-- Using AI as an **assistant**, not a crutch
-
----
-
-## 🚀 Long-Term Direction
-
-- Build internal tools, SaaS platforms & custom systems
-- Move from “developer” → **problem owner**
-- Launch and own systems, not just ship code
+## 🎨 Web Dev (as Hobby)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?logo=javascript&logoColor=F7DF1E)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white)
 
 ---
 
-## 🤝 Connect With Me
-
-If you care about **real systems** more than hype:
-
-- 🌐 Portfolio: [Coming Soon](https://unseenumair.github.io/)
-- 💼 LinkedIn: [unseenUmair](https://www.linkedin.com/in/unseenumair)
-- 🧠 GitHub: You’re already here
-- 📩 Email: umairshakoor.pro@gmail.com
+## 📍 Direction
+- Preparing for **DevOps internships / junior roles**
+- Building projects as proof of learning
+- Long-term: Platform Engineering / SRE
 
 ---
 
-## ⚠️ Note on Code & Usage
+📬 **Connect**
+- GitHub : https://github.com/unseenumair/
+- Linkedin : https://linkedin.com/in/unseenumair/
+- Dev : https://dev.to/unseenumair/
+- Portfolio : https://unseenumair.github.io/  
 
-© 2026 Umair Shakoor. **All Rights Reserved.**
-
-This repository represents personal learning, experimentation, and system-building practice.  
-Please do not reuse or redistribute without permission.
-
----
-
-> I’m not racing trends.  
-> I’m building foundations.  
-> The rest will compound.
+> Learning by doing. Breaking things carefully. Fixing them properly. ⚡
