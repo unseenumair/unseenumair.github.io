@@ -1,23 +1,23 @@
-# Umair 👋, I'm [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fredoka&weight=600&size=22&letterSpacing=1px&duration=3000&pause=300&color=38BDF8&vCenter=true&height=25&lines=Python+Backend+Engineer;Architecting+Deterministic+Agents;Optimizing+Token+Budgets+%26+Databases)](https://git.io/typing-svg)
+# UMAIR 👋, a GAMER
 
-I'm Just OBSESSED 🥑 with PERFORMANCE and have love to build Intelligent, blazing FAST and OPTIMIZED web apps. 
+I'm Just OBSESSED 🥑 with PERFORMANCE and have love to build Intelligent, blazing FAST and OPTIMIZED web GAMES. 
 
 > Msg Me 👉 ✉️ **umairshakoor.pro@gmail.com** for collaboration, product ideas, or meaningful tech conversations.
 
 ---
 
-## 🛠 Tech Stack & Ecosystem
+## 🛠 Tech Ecosystem
 
 ### **Core Engineering**
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,postgres,git,github,vercel,figma" alt="Core Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,threejs,blender,linux,bash,git,github,vercel" alt="Core Tech Stack" />
 </p>
 
 ---
 
 ## 🌐 Profiles & Portfolio
 
-<a href="https://unseenumair.github.io/" target="_blank"><img src="https://skillicons.dev/icons?i=js" alt="PORTFOLIO"/></a>&nbsp;
+<a href="https://unseenumair.github.io/" target="_blank"><img src="https://skillicons.dev/icons?i=htmx" alt="PORTFOLIO"/></a>&nbsp;
 <a href="https://linkedin.com/in/unseenumair" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" alt="LINKEDIN"/></a>&nbsp;
 <a href="https://x.com/unseenumair" target="_blank"><img src="https://skillicons.dev/icons?i=twitter" alt="TWITTER"/></a>&nbsp;
 <a href="https://dev.to/unseenumair" target="_blank"><img src="https://skillicons.dev/icons?i=devto" alt="DEV.TO"/></a>
@@ -41,3 +41,5 @@ I'm Just OBSESSED 🥑 with PERFORMANCE and have love to build Intelligent, blaz
 ### ✍️ Builder Quote
 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+
+---
